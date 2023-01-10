@@ -2,16 +2,16 @@
     "extends": "recommended",
     "rules": {
         "CatchException": {
-            "enabled": false
+            "enabled": true
         },
         "CatchThrowable": {
             "enabled": false
         },
         "ClassJavadoc": {
-            "enabled": false
+            "enabled": true
         },
         "ClosureAsLastMethodParameter": {
-            "enabled": false
+            "enabled": true
         },
         "DuplicateNumberLiteral": {
             "enabled": false
@@ -32,7 +32,7 @@
             "enabled": false
         },
         "NoDef": {
-            "enabled": false
+            "enabled": true
         },
         "PrintStackTrace": {
             "enabled": false
@@ -41,7 +41,7 @@
             "enabled": false
         },
         "SpaceAroundMapEntryColon": {
-            "enabled": false
+            "enabled": true
         },
         "SystemExit": {
             "enabled": false
@@ -56,10 +56,10 @@
             "enabled": false
         },
         "VariableName": {
-            "enabled": false
+            "enabled": true
         },
         "VariableTypeRequired": {
-            "enabled": false
+            "enabled": true
         }
     }
 }
