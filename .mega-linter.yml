@@ -15,5 +15,5 @@ PRINT_ALL_FILES: false
 GITHUB_STATUS_REPORTER: false
 PRE_COMMANDS:
   - continue_if_failed: false
-    command: npm ci
+    command: echo "pre"
     cwd: workspace
